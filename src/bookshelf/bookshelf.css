@@ -1,0 +1,113 @@
+.content-list {
+  height: 100%;
+  overflow-y: scroll;
+  width: 65%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 2em 2em;
+  list-style: none;
+}
+
+.content-list li {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 1em 1em 2em;
+  border: #5e2222 2px solid;
+  border-radius: 15px;
+}
+
+.content-list li img {
+  width: 25%;
+  height: auto;
+  margin: 2em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content-list li div {
+  padding: 2.5em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 70%;
+}
+
+.id {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.id span {
+  color: #ba6729;
+  font-weight: 700;
+}
+
+.field1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 0.25em 0 0;
+}
+
+.field2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+
+.field3,
+.field4,
+.field5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #bbbbc2;
+  margin: 0.1em 0;
+}
+
+.deleteButton {
+  align-self: flex-end;
+  font-size: 1.2rem;
+  margin-top: 2em;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5em 2em;
+  border-radius: 10px;
+  border: none;
+  background-color: #ba6729;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.empty-wrapper {
+  margin: 4em auto;
+  text-align: center;
+  width: 50%;
+}
+
+.empty-wrapper h3 {
+  color: #5e2222;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.empty-wrapper p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #bbbbc2;
+}
+
+.content-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.content-list::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 5px;
+}
+
+.content-list::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+}
